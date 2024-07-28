@@ -22,7 +22,7 @@ const Mail = () => {
   const deleteHandler = async () => {
     try {
       const res = await axios.delete(
-        `http://localhost:8080/api/v1/email/${params.id}`,
+        `https://gmail-clone-xwwi.onrender.com/api/v1/email/${params.id}`,
         {
           withCredentials: true,
         }
