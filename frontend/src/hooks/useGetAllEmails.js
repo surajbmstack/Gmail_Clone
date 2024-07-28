@@ -9,7 +9,7 @@ const usegetAllEmails = () => {
     const fetchEmails = async () => {
       try {
         const res = await axios.get(
-          "http://localhost:8080/api/v1/email/getallemails",
+          "https://gmail-clone-xwwi.onrender.com/api/v1/email/getallemails",
           {
             withCredentials: true,
           }
