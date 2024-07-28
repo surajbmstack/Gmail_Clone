@@ -16,7 +16,7 @@ const Signup = () => {
     e.preventDefault();
     try {
       const res = await axios.post(
-        "http://localhost:8080/api/v1/user/register",
+        "https://gmail-clone-xwwi.onrender.com/api/v1/user/register",
         input,
         {
           headers: {
