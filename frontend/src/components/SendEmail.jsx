@@ -22,7 +22,7 @@ const SendEmail = () => {
     console.log(formData);
     try {
       const res = await axios.post(
-        "http://localhost:8080/api/v1/email/create",
+        "https://gmail-clone-xwwi.onrender.com/api/v1/email/create",
         formData,
         {
           header: {
